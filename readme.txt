@@ -2,10 +2,10 @@
 Contributors: mediacloud, interfacelab, freemius
 Tags: offload, amazon, s3, cloudflare, bunnycdn, imgix, uploads, video, video encoding, google cloud storage, digital ocean spaces, wasabi, media, cdn, rekognition, cloudfront, images, crop, image editing, image editor, optimize, image optimization, media library, offload, offload s3, smush, imagify, shortpixel
 Requires at least: 4.9
-Tested up to: 6.5
+Tested up to: 6.7.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Stable tag: 4.6.4
+Stable tag: 4.6.4.1
 Requires PHP: 7.4
 
 Automatically store media on Amazon S3, Cloudflare R2, Google Cloud Storage, DigitalOcean Spaces + others. Serve CSS/JS assets through CDNs.  Integrate with Imgix.
@@ -104,6 +104,10 @@ Imgix is a content delivery network with a twist.  In addition to distributing y
 
 
 == Changelog ==
+
+= 4.6.4.1 - 03/13/2025 =
+
+* Fixed Post content's last image src&srcset when attempting to fix it via \MediaCloud\Plugin\Tools\Storage\StorageContentHooks::fixGutenbergFigures() function when the content is inlined (single-string HTML cases)
 
 = 4.6.4 - 04/09/2024 =
 
