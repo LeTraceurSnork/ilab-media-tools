@@ -1,11 +1,15 @@
 {
-    "name" : "ilab/ilab-media-tools",
+    "name": "spectrumdata/ilab-media-tools",
     "description": "Tools for cropping, uploading to S3, serving through Imgix",
     "type": "wordpress-plugin",
     "license": "LGPL-3.0-or-later",
-    "keywords": ["s3","imgix","cropping", "wordpress"],
-    "repositories": [
+    "keywords": [
+        "s3",
+        "imgix",
+        "cropping",
+        "wordpress"
     ],
+    "repositories": [],
     "authors": [
         {
             "name": "Jon Gilkison",
@@ -17,10 +21,10 @@
             "php": "7.4"
         }
     },
-    "require" : {
+    "require": {
         "php": ">=7.4",
         "duncan3dc/blade": ">=3.3",
-	    "duncan3dc/object-intruder": "*",
+        "duncan3dc/object-intruder": "*",
         "fasterimage/fasterimage": ">=1.1",
         "google/cloud-storage": ">=1.21",
         "google/cloud-vision": ">=0.19.0",
